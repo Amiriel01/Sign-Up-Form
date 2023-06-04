@@ -39,6 +39,7 @@
     height: 25vh;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    padding-top: 1rem;
 }
 
 #title {
@@ -115,5 +116,5 @@ button {
 .text-links {
     text-align: center;
     font-size: 24px;
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
