@@ -7,7 +7,7 @@ function passwordConfirmation() {
         document.getElementById("message").innerHTML = "**Error: The password field is Empty.";
     } else if (password == confirmPassword) {
         document.getElementById("message").innerHTML = "**Account Created";
-        //return true; (When I want it to actually work)//
+        //return true; (When I want it to actually submit the form on a website)//
     } else {
         document.getElementById("message").innerHTML = "**Please make sure your passwords match.";
     }
