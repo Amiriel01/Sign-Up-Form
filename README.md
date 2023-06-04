@@ -17,15 +17,15 @@ Form Filled Out: (Passwords Match)
 
 ***Features***
 
-1. Turtle image with logo overlay
-2. First and Last Names are required to be less than 20 characters long
-3. Email Address must be formatted correctly
-4. Phone Number can be entered in any countries format
-5. Password and Confirm Password must be at least five characters long and match. 
-6. User will receive one of three messages depending on passwords entered once they click the "Create Account" button. 
+1. The turtle image with logo overlay.
+2. The First and Last Names are required to be max 20 characters long.
+3. The Email Address must be formatted correctly.
+4. The Phone Number can be entered in any countries format.
+5. The Password and Confirm Password must be at least five characters long and match. 
+6. User will receive one of two messages once they click the "Create Account" button. 
     a. **Success: Account Created!
     b. **Error: Passwords do not match.
-7. If user already has an account there is a "Login Here!" link to take them to the login page.
+7. If the user already has an account there is a "Login Here!" link to take them to the login page.
 
 ***Credits:***
 
