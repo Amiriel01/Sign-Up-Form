@@ -4,12 +4,15 @@
 
 I created a sign-up form template using HTML and CSS. I used JavaScript to ensure that the password and confirmed password match.
 
-***Completed Form Image***
+***Completed Form Images***
 
 Blank Form:
 ![](images/form.png)
 
-Form With Input After Create Account Button Used:
+Form Filled Out: (Passwords Do Not Match)
+![](images/error.png)
+
+Form Filled Out: (Passwords Match)
 ![](images/created.png)
 
 ***Features***
@@ -20,13 +23,11 @@ Form With Input After Create Account Button Used:
 4. Phone Number can be entered in any countries format
 5. Password and Confirm Password must be at least five characters long and match. 
 6. User will receive one of three messages depending on passwords entered once they click the "Create Account" button. 
-(Once the site is operational this button would submit the form data if the passwords matched.)
-    a. **Error: The password field is Empty.
-    b. **Success: Account Created!
-    c. **Error: The password field is Empty.
-7. If user already has an account there is a "Login Here!" link that would take them to the login page once the site was operational.
+    a. **Success: Account Created!
+    b. **Error: Passwords do not match.
+7. If user already has an account there is a "Login Here!" link to take them to the login page.
 
-Credits:
+***Credits:***
 
 The turtle on the bench image was found on pexels.
 https://www.pexels.com/search/turtle/
