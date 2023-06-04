@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="entire-page">
+        <div class="left-side">
+            <img class="turtle" src="images/turtle.jpg" alt="Turtle Walking Up Stairs">
+            <div class="sidebar">
+                <img id="logo" src="images/turtlelogo.png" alt="Turle Logo">
+                <div id="tpa">TPA</div>
+            </div>
+        </div>
+        <div class="right-side">
+            <div class="header">
+                <div id="title">Turtle Protection Agency</div>
+                <div id="info">
+                    Turtles are slow and steady creatures. They need protection from the fast paced world!
+                </div>
+            </div>
+            <div class="form">
+                <div id="form-info">
+                    Create an account to sign up for the monthly newsletter!
+                </div>
+                <form>
+                    <div class="row1">
+                        <div id="fn">
+                            <label for="first_name">*First Name</label>
+                            <input type="text" name="first_name" id="first_name" maxlength="20" required>
+                        </div>
+                        <div id="ln">
+                            <label for="last_name">*Last Name</label>
+                            <input type="text" name="last_name" id="last_name" maxlength="20" required>
+                        </div>
+                    </div>
+                    <div class="row2">
+                        <div id="ue">
+                            <label for="user-email">*Email Address</label>
+                            <input type="email" name="user-email" id="user-email" required>
+                        </div>
+                        <div id="pn">
+                            <label for="phone_number">*Phone Number</label>
+                            <input type="tel" id="phone_number" name="phone_number" required>
+                        </div>
+                    </div>
+                    <div class="row3">
+                        <div id="pw">
+                            <lable for="password">*Password</lable>
+                            <input type="password" id="password" name="password"
+                                title="Password must be at least five characters long." minlength="5" required>
+                        </div>
+                        <div id="pw2">
+                            <lable for="password2">*Confirm Password</lable>
+                            <input type="password2" id="password2" name="password2"
+                                title="Password must be at least five characters long." minlength="5" required>
+                        </div>
+                    </div>
+                    <div id="button">
+                        <button type="submit">Create Account</button>
+                    </div>
+                </form>
+            </div>
+            <div class="text-links">
+                <div id="already-account">Already have an account? <a href="#">Login Here!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
