@@ -5,7 +5,7 @@ function passwordConfirmation() {
     if (password === "") {
         alert("Error: The password field is Empty.");
     } else if (password === confirmPassword) {
-        alert("Logged In");
+        alert("Account Created");
     } else {
         alert("Please make sure your passwords match.")
     }
