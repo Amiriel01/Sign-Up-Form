@@ -29,7 +29,7 @@
                 <div id="form-info">
                     Create an account to sign up for the monthly newsletter!
                 </div>
-                <form>
+                <form onsubmit="return passwordConfirmation()">
                     <div class="row1">
                         <div id="fn">
                             <label for="first_name">*First Name</label>
@@ -60,6 +60,7 @@
                             <lable for="password2">*Confirm Password</lable>
                             <input type="password" id="password2" name="password2"
                                 title="Password must be at least five characters long." minlength="5" required>
+                                <span id="message"></span>
                         </div>
                     </div>
                     <div id="button">
