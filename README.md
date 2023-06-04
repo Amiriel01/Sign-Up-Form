@@ -1,5 +1,20 @@
 # Sign-Up-Form
-Work in progress!
+
+**Objective**
+
+I created a sign-up form template using HTML and CSS. I used JavaScript to ensure that the password and confirmed password match.
+
+***Completed Form Image***
+
+![](images/form.png)
+
+***Features***
+
+1. Turtle image with logo overlay
+2. First and Last Names are required to be less than 20 characters long
+3. Email Address must be formatted correctly
+4. Phone Number can be entered in any countries format
+5. Password and Confirm Password must be at least five characters long and match
 
 Credits:
 
